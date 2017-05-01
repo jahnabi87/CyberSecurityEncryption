@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		569FF61B303202BA7E13ED00 /* Pods_CyberSecurityEncryption.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9B876B232007D6C9608701 /* Pods_CyberSecurityEncryption.framework */; };
+		863A32DC1D85A0E20095270B /* DiagraphEncryptionCiewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863A32DB1D85A0E20095270B /* DiagraphEncryptionCiewController.swift */; };
+		8670F3271D8751CE00912771 /* RSAEncryptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8670F3261D8751CE00912771 /* RSAEncryptionViewController.swift */; };
+		86F94D211D7DBDE800DE69DC /* GCDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F94D201D7DBDE800DE69DC /* GCDViewController.swift */; };
+		86F94D231D7DC41700DE69DC /* InverseModulusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F94D221D7DC41700DE69DC /* InverseModulusViewController.swift */; };
+		86F94D3D1D7DFFF600DE69DC /* BigInt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86F94D3C1D7DFFF600DE69DC /* BigInt.framework */; };
 		F5FC62461D7CB14400889EDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FC62451D7CB14400889EDE /* AppDelegate.swift */; };
 		F5FC62481D7CB14400889EDE /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FC62471D7CB14400889EDE /* FirstViewController.swift */; };
 		F5FC624A1D7CB14400889EDE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FC62491D7CB14400889EDE /* SecondViewController.swift */; };
@@ -16,6 +22,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A9B876B232007D6C9608701 /* Pods_CyberSecurityEncryption.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CyberSecurityEncryption.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B624C6F8E7A84AC57BECC46 /* Pods-CyberSecurityEncryption.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CyberSecurityEncryption.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CyberSecurityEncryption/Pods-CyberSecurityEncryption.debug.xcconfig"; sourceTree = "<group>"; };
+		863A32DB1D85A0E20095270B /* DiagraphEncryptionCiewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiagraphEncryptionCiewController.swift; sourceTree = "<group>"; };
+		8670F3261D8751CE00912771 /* RSAEncryptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSAEncryptionViewController.swift; sourceTree = "<group>"; };
+		86F94D201D7DBDE800DE69DC /* GCDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCDViewController.swift; sourceTree = "<group>"; };
+		86F94D221D7DC41700DE69DC /* InverseModulusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InverseModulusViewController.swift; sourceTree = "<group>"; };
+		86F94D3C1D7DFFF600DE69DC /* BigInt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BigInt.framework; path = "../../../Library/Developer/Xcode/DerivedData/CyberSecurityEncryption-cnhcgxswlfvupdersclmnjethkcc/Build/Products/Debug-iphonesimulator/BigInt.framework"; sourceTree = "<group>"; };
+		A15D945C3A43F557D87A92BC /* Pods-CyberSecurityEncryption.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CyberSecurityEncryption.release.xcconfig"; path = "Pods/Target Support Files/Pods-CyberSecurityEncryption/Pods-CyberSecurityEncryption.release.xcconfig"; sourceTree = "<group>"; };
 		F5FC62421D7CB14400889EDE /* CyberSecurityEncryption.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CyberSecurityEncryption.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5FC62451D7CB14400889EDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5FC62471D7CB14400889EDE /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -31,17 +45,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86F94D3D1D7DFFF600DE69DC /* BigInt.framework in Frameworks */,
+				569FF61B303202BA7E13ED00 /* Pods_CyberSecurityEncryption.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		61B48B00E38D30A39001DD28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86F94D3C1D7DFFF600DE69DC /* BigInt.framework */,
+				1A9B876B232007D6C9608701 /* Pods_CyberSecurityEncryption.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B13D5476AFAF725B1816384D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B624C6F8E7A84AC57BECC46 /* Pods-CyberSecurityEncryption.debug.xcconfig */,
+				A15D945C3A43F557D87A92BC /* Pods-CyberSecurityEncryption.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F5FC62391D7CB14400889EDE = {
 			isa = PBXGroup;
 			children = (
 				F5FC62441D7CB14400889EDE /* CyberSecurityEncryption */,
 				F5FC62431D7CB14400889EDE /* Products */,
+				B13D5476AFAF725B1816384D /* Pods */,
+				61B48B00E38D30A39001DD28 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,7 +94,11 @@
 			children = (
 				F5FC62451D7CB14400889EDE /* AppDelegate.swift */,
 				F5FC62471D7CB14400889EDE /* FirstViewController.swift */,
+				86F94D201D7DBDE800DE69DC /* GCDViewController.swift */,
+				86F94D221D7DC41700DE69DC /* InverseModulusViewController.swift */,
 				F5FC62491D7CB14400889EDE /* SecondViewController.swift */,
+				863A32DB1D85A0E20095270B /* DiagraphEncryptionCiewController.swift */,
+				8670F3261D8751CE00912771 /* RSAEncryptionViewController.swift */,
 				F5FC624B1D7CB14400889EDE /* Main.storyboard */,
 				F5FC624E1D7CB14400889EDE /* Assets.xcassets */,
 				F5FC62501D7CB14400889EDE /* LaunchScreen.storyboard */,
@@ -74,9 +114,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F5FC62561D7CB14500889EDE /* Build configuration list for PBXNativeTarget "CyberSecurityEncryption" */;
 			buildPhases = (
+				48E258505B5D8C17CBA101C1 /* Check Pods Manifest.lock */,
 				F5FC623E1D7CB14400889EDE /* Sources */,
 				F5FC623F1D7CB14400889EDE /* Frameworks */,
 				F5FC62401D7CB14400889EDE /* Resources */,
+				03B7AD9EA7395D2CCF7D8C20 /* Embed Pods Frameworks */,
+				40F89C00653E65774E5618AA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -99,6 +142,7 @@
 				TargetAttributes = {
 					F5FC62411D7CB14400889EDE = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 3EAJZ2TE26;
 					};
 				};
 			};
@@ -133,14 +177,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03B7AD9EA7395D2CCF7D8C20 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CyberSecurityEncryption/Pods-CyberSecurityEncryption-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40F89C00653E65774E5618AA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CyberSecurityEncryption/Pods-CyberSecurityEncryption-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48E258505B5D8C17CBA101C1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F5FC623E1D7CB14400889EDE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F5FC624A1D7CB14400889EDE /* SecondViewController.swift in Sources */,
+				86F94D231D7DC41700DE69DC /* InverseModulusViewController.swift in Sources */,
+				863A32DC1D85A0E20095270B /* DiagraphEncryptionCiewController.swift in Sources */,
 				F5FC62461D7CB14400889EDE /* AppDelegate.swift in Sources */,
 				F5FC62481D7CB14400889EDE /* FirstViewController.swift in Sources */,
+				86F94D211D7DBDE800DE69DC /* GCDViewController.swift in Sources */,
+				8670F3271D8751CE00912771 /* RSAEncryptionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,7 +280,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Pfizer International Inc";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -229,7 +325,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Pfizer International Inc";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -251,22 +347,24 @@
 		};
 		F5FC62571D7CB14500889EDE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B624C6F8E7A84AC57BECC46 /* Pods-CyberSecurityEncryption.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CyberSecurityEncryption/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Jahnabi.CyberSecurityEncryption;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pfizerinternational.GIDM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		F5FC62581D7CB14500889EDE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A15D945C3A43F557D87A92BC /* Pods-CyberSecurityEncryption.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CyberSecurityEncryption/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Jahnabi.CyberSecurityEncryption;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pfizerinternational.GIDM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -290,6 +388,7 @@
 				F5FC62581D7CB14500889EDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
